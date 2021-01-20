@@ -11,10 +11,7 @@
   height: 30vh;
   opacity: 70%;
 }
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 .ul{
   float: right;
   margin-right: 30px;
@@ -26,8 +23,9 @@
   text-shadow: 2px 2px skyblue;
 }
 .navbar{
-        height: 150px;
+        height: 100px;
      padding-left: 30px; 
+     padding-bottom: 2px;
 }
 .nav-link{
   color: #0066ff;
