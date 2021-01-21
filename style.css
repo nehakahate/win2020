@@ -6,7 +6,7 @@
 }
 
 #demo{
-  background-color: #3385ff;
+  background-image: url("background.jpg");
   text-align: center; 
   height: 30vh;
   opacity: 70%;
@@ -179,9 +179,14 @@
             margin-left: 40px;
             align-self: center;
           }
-          .footer-title-28, a{
+          .cn-ftr, a{
             color: #fff;
             font-weight: bold;
             text-decoration: none;
+          } 
+          .cn-ftr{
+            background-color: #000000;
+            padding: 45px 0;
+            color: #fff;
           }
     
