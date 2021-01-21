@@ -44,16 +44,20 @@
      padding-bottom: 2px;
 }
 .nav-link{
-   font-size: larger;
+  font-size: medium;
+  text-align: center;
   color: #0066ff;
- 
 }
 .active{
   color:#17449e;
-  border: #0066ff;
-  border-radius: 2px;
-  border-style: solid;
+  border-bottom: #0066ff;
+  border-bottom: solid;
 }
+
+ .navbar-brand {
+  color: #0066ff;
+}
+
 .nav-link:hover{
      font-weight: bold;
      color: #17449e;
@@ -88,7 +92,9 @@
   .py-5{
     padding-top: 2rem;
   }
-  
+  .container-section{
+    background-color: #d3d3d3;
+  }
   /* .about-grid-main h4 {
     font-size: 20px;
     color: #000000;
@@ -190,4 +196,28 @@
             padding: 45px 0;
             color: #fff;
           }
-          
+@media screen and (min-width: 992px) {
+  .navbar{
+  
+  height: 100px;
+ padding-left: 30px; 
+ padding-bottom: 2px;
+}
+nav-link{
+  font-size: larger;
+ color: #0066ff;
+
+}
+.active{
+  color:#17449e;
+  border: #0066ff;
+  border-radius: 2px;
+  border-style: solid;
+}
+  }
+
+@media screen and (max-width:650px){
+.cn-ftr{
+  text-align: center;
+}
+}
